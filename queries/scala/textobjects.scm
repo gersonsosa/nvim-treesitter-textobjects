@@ -1,6 +1,9 @@
 (class_definition
   body: (template_body)? @class.inner) @class.outer
 
+(trait_definition
+  body: (template_body)? @trait.inner) @trait.outer
+
 (object_definition
   body: (template_body)? @class.inner) @class.outer
 
